@@ -30,12 +30,13 @@
     }
 
     body{
-      /*font-size: 100%;*/
-      font-size: clamp(.5rem, 0.7rem + 1vw, 1rem);
+      font-size: 100%;
       background-color:var(--color-stone-100);
+      margin-bottom:8rem;
     }
 
     .recipe{
+      min-height: 100vh;
       position: absolute;
       top:10%;
       left:50%;
@@ -45,6 +46,7 @@
       width:80%;
       max-width: 46rem;
       border-radius: 1rem;
+      margin-bottom: 2rem;
     }
 
     .recipe__figure{
@@ -65,7 +67,7 @@
 
     .recipe__header--1{
       font-weight:400;
-      font-size: clamp(1rem, 1.5rem, 4rem);
+      font-size: clamp(1rem, 1rem + 5vw, 2.5rem);
     }
 
     .recipe__header--2{
