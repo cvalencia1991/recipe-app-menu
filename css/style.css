@@ -32,13 +32,11 @@
     body{
       font-size: 100%;
       background-color:var(--color-stone-100);
-      margin-bottom:8rem;
+      margin:8rem 0;
     }
 
     .recipe{
-      min-height: 100vh;
-      position: absolute;
-      top:10%;
+      position:relative;
       left:50%;
       transform: translateX(-50%);
       background-color: var(--color-white);
@@ -50,7 +48,7 @@
     }
 
     .recipe__figure{
-      padding: 2rem;
+      padding: 2.5rem;
     }
 
     .recipe__figure--image{
@@ -67,7 +65,7 @@
 
     .recipe__header--1{
       font-weight:400;
-      font-size: clamp(1rem, 1rem + 5vw, 2.5rem);
+      font-size: clamp(1rem, 1rem + 2.5vw, 2.5rem);
     }
 
     .recipe__header--2{
@@ -78,7 +76,7 @@
 
     .recipe__header--3{
       padding: .5rem 0; 
-      font-weight: 700;
+      font-weight: 600;
       color: var(--color-rose-800);
     }
 
@@ -169,6 +167,10 @@
     }
 
     @media only screen and (max-width: 23.43em){
+
+      body{
+        margin:0;
+      }
 
       .recipe {
         position: relative; 
