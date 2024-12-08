@@ -8,21 +8,21 @@
     <title>Frontend Mentor | Recipe page</title>
   </head>
   <body>
-    <section class="recipe">
-      <figure class="recipe__figure">
-        <img src="./assets/images/image-omelette.jpeg" alt="image omelette" class="recipe__figure--image" />
-        <figcaption>
-          <main>
-            <header class="recipe__header">
+    <main>
+      <section class="recipe">
+        <figure class="recipe__figure">
+          <img src="./assets/images/image-omelette.jpeg" alt="image omelette" class="recipe__figure--image" />
+          <figcaption>
+            <div role="header" class="recipe__header">
               <h1 class="recipe__header--1">Simple Omelette Recipe</h1>
               <p class="recipe__introduction">
               An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
               to perfection, optionally filled with your choice of cheese, vegetables, or meats.
               <p>
-            </header>
+            </div>
 
             <div class="recipe__preparation-time">
-              <h3 class="recipe__header--3">Preparation time</h3>
+              <h2 class="recipe__header--3">Preparation time</h2>
               <ul class="recipe__preparation--resume">
                 <li><strong>Total:</strong> Approximately 10 minutes</li>
                 <li><strong>Preparation:</strong> 5 minutes</li>
@@ -43,7 +43,7 @@
 
             <div class="recipe__preparation--ingredients">
               <h2 class="recipe__header--2">Instructions</h2>
-              <ul class="recipe__preparation--ingredients-list">
+              <ul class="recipe__preparation--ingredients-steps">
                 <li>
                   <strong>Beat the eggs:</strong> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
                   You can add a tablespoon of water or milk for a fluffier texture.</li>
@@ -90,10 +90,10 @@
               </table>
 
             </div>
-          </main>
-        </figcaption>
-      </figure>
-    </section>
+          </figcaption>
+        </figure>
+      </section>
+    </main>
 
   </body>
 </html>
