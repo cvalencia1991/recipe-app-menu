@@ -32,7 +32,7 @@
     body{
       font-size: 100%;
       background-color:var(--color-stone-100);
-      margin:8rem 0;
+      padding:8rem 0;
     }
 
     .recipe{
@@ -71,12 +71,16 @@
     .recipe__header--2{
       font-family: young-serif, sans-serif;
       font-weight:400;
+      font-size: 1.75rem;
       color:var(--color-brown-800);
+      padding: 1.5rem 0;
+
     }
 
     .recipe__header--3{
       padding: .5rem 0; 
       font-weight: 600;
+      font-size: 1.25rem;
       color: var(--color-rose-800);
     }
 
@@ -95,7 +99,7 @@
     }
 
     .recipe__preparation--resume{
-      padding: 0 1rem;
+      padding: 0 2rem;
       list-style:disc;
       color: var(--color-stone-600);
     }
@@ -107,10 +111,10 @@
 
     .recipe__preparation--resume li::marker{
       color: var(--color-rose-800);
+      font-size: 0.8em;
     }
 
     .recipe__preparation--ingredients{
-      margin: 2rem 0;
       border-bottom: 1px solid var(--color-stone-150);
     }
 
@@ -166,14 +170,14 @@
       padding: .5rem 0;
     }
 
-    @media only screen and (max-width: 23.43em){
+    @media only screen and (max-width: 26.5625em){
 
       body{
-        margin:0;
+        padding:0;
       }
 
       .recipe {
-        position: relative; 
+        position: absolute; 
         top: auto;
         left: auto;
         transform: none;
